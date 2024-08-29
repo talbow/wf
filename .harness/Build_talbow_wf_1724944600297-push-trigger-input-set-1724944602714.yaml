@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_talbow_wf_1724944600297-push-trigger-input-set
+  identifier: Build_talbow_wf_1724944600297pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_talbow_wf_1724944600297
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
