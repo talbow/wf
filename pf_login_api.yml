@@ -1,0 +1,42 @@
+---
+- name: Gatherfacts Module Operations on PowerFlex
+  hosts: powerflex
+  connection: local
+  tasks:
+    - name: Authenticate to PowerFlex
+      uri:
+        url: "https://{{ powerflex_api_host }}/rest/auth/login"
+        method: POST
+        headers:
+          Content-Type: "application/json"
+          Accept: "application/json"
+        body_format: json
+        body:
+          username: "{{ ansible_user }}"
+          password: "{{ ansible_password }}"
+        return_content: yes
+        validate_certs: "{{ ansible_validate_certs }}"  
+      register: auth_response
+      failed_when: "'access_token' not in auth_response.json or auth_response.status != 200"
+
+    - name: Set access token fact
+      set_fact:
+        powerflex_token: "{{ auth_response.json.access_token }}"
+      when: auth_response.status == 200  
+
+    - name: List SSL certs
+      uri:
+        url: "https://{{ powerflex_api_host }}/Api/V1/corelcm/trusted" 
+        method: GET
+        headers:
+          Content-Type: "application/json"
+          Accept: "application/json"
+          Authorization: "Bearer {{ powerflex_token }}"
+        return_content: yes
+        validate_certs: no   
+      register: ssl_response
+
+    - name: print SSL cert info
+      debug:
+        var: ssl_response
+

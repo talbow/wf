@@ -1,0 +1,7 @@
+# dependencies:
+#   - name: PyPowerFlex
+#   - name: requests
+#     version: ">=2.23.0"
+#   - name: python-dateutil
+#     version: ">=2.8.0"
+#   - name: setuptools

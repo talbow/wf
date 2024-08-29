@@ -1,0 +1,236 @@
+2024-08-19 11:12:29,258 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-19 11:12:29,258 info.py INFO : The check_mode flag False
+2024-08-19 11:12:29,258 info.py INFO : Getting API details 
+2024-08-19 11:12:29,258 info.py INFO : Getting array details 
+2024-08-19 11:12:36,095 info.py INFO : Getting volumes list 
+2024-08-19 11:12:49,258 info.py INFO : Successfully listed.
+2024-08-19 11:13:19,673 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-19 11:13:19,674 info.py INFO : The check_mode flag False
+2024-08-19 11:13:19,674 info.py INFO : Getting API details 
+2024-08-19 11:13:19,674 info.py INFO : Getting array details 
+2024-08-19 11:13:26,341 info.py INFO : Getting volumes list 
+2024-08-19 11:13:39,618 info.py INFO : Successfully listed.
+2024-08-19 11:24:53,840 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-19 11:24:53,842 info.py INFO : The check_mode flag False
+2024-08-19 11:24:53,842 info.py INFO : Getting API details 
+2024-08-19 11:24:53,842 info.py INFO : Getting array details 
+2024-08-19 11:25:00,471 info.py INFO : Getting SDC list 
+2024-08-19 11:25:07,109 info.py INFO : Successfully listed.
+2024-08-19 11:25:07,109 info.py INFO : Getting SDS list 
+2024-08-19 11:25:13,475 info.py INFO : Successfully listed.
+2024-08-19 11:25:13,476 info.py INFO : Getting protection domain list 
+2024-08-19 11:25:19,948 info.py INFO : Successfully listed.
+2024-08-19 11:25:19,948 info.py INFO : Getting storage pool list 
+2024-08-19 11:25:35,829 info.py INFO : Successfully listed.
+2024-08-19 11:25:35,829 info.py INFO : Getting volumes list 
+2024-08-19 11:25:48,897 info.py INFO : Successfully listed.
+2024-08-19 11:25:48,898 info.py INFO : Getting snapshot policies list 
+2024-08-19 11:25:55,414 info.py INFO : Getting device list 
+2024-08-19 11:26:01,885 info.py INFO : Successfully listed.
+2024-08-19 11:26:01,885 info.py INFO : Getting replication consistency group list 
+2024-08-19 11:26:08,477 info.py INFO : Getting replication pair list 
+2024-08-19 11:26:14,980 info.py INFO : Getting fault set list 
+2024-08-19 11:26:34,092 info.py INFO : Successfully listed.
+2024-08-19 15:53:15,864 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-19 15:53:15,866 info.py INFO : The check_mode flag False
+2024-08-19 15:53:15,866 info.py INFO : Getting API details 
+2024-08-19 15:53:15,866 info.py INFO : Getting array details 
+2024-08-19 15:53:22,315 info.py INFO : Getting volumes list 
+2024-08-19 15:53:35,821 info.py INFO : Successfully listed.
+2024-08-19 15:55:54,775 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-19 15:55:54,777 info.py INFO : The check_mode flag False
+2024-08-19 15:55:54,777 info.py INFO : Getting API details 
+2024-08-19 15:55:54,777 info.py INFO : Getting array details 
+2024-08-19 15:56:01,140 info.py INFO : Getting SDC list 
+2024-08-19 15:56:07,739 info.py INFO : Successfully listed.
+2024-08-19 15:56:07,739 info.py INFO : Getting SDS list 
+2024-08-19 15:56:14,232 info.py INFO : Successfully listed.
+2024-08-19 15:56:14,232 info.py INFO : Getting protection domain list 
+2024-08-19 15:56:20,718 info.py INFO : Successfully listed.
+2024-08-19 15:56:20,718 info.py INFO : Getting storage pool list 
+2024-08-19 15:56:36,740 info.py INFO : Successfully listed.
+2024-08-19 15:56:36,740 info.py INFO : Getting volumes list 
+2024-08-19 15:56:50,307 info.py INFO : Successfully listed.
+2024-08-19 15:56:50,307 info.py INFO : Getting snapshot policies list 
+2024-08-19 15:56:57,171 info.py INFO : Getting device list 
+2024-08-19 15:57:03,615 info.py INFO : Successfully listed.
+2024-08-19 15:57:03,615 info.py INFO : Getting replication consistency group list 
+2024-08-19 15:57:10,400 info.py INFO : Getting replication pair list 
+2024-08-19 15:57:16,913 info.py INFO : Getting fault set list 
+2024-08-19 15:57:36,574 info.py INFO : Successfully listed.
+2024-08-20 07:16:09,161 base_client.py ERROR : Login failed with error:HTTPSConnectionPool(host='10.118.169.30', port=443): Max retries exceeded with url: /api/login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6dcca29b40>, 'Connection to 10.118.169.30 timed out. (connect timeout=120)'))
+2024-08-20 07:16:09,163 info.py ERROR : Login failed with error:HTTPSConnectionPool(host='10.118.169.30', port=443): Max retries exceeded with url: /api/login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6dcca29b40>, 'Connection to 10.118.169.30 timed out. (connect timeout=120)'))
+2024-08-20 08:31:13,247 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-20 08:31:13,247 info.py INFO : The check_mode flag False
+2024-08-20 08:31:13,247 info.py INFO : Getting API details 
+2024-08-20 08:31:13,247 info.py INFO : Getting array details 
+2024-08-20 08:31:20,026 info.py INFO : Getting volumes list 
+2024-08-20 08:31:33,436 info.py INFO : Successfully listed.
+2024-08-20 08:32:07,153 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-20 08:32:07,154 info.py INFO : The check_mode flag False
+2024-08-20 08:32:07,154 info.py INFO : Getting API details 
+2024-08-20 08:32:07,154 info.py INFO : Getting array details 
+2024-08-20 08:32:13,723 info.py INFO : Getting SDC list 
+2024-08-20 08:32:20,213 info.py INFO : Successfully listed.
+2024-08-20 08:32:20,214 info.py INFO : Getting SDS list 
+2024-08-20 08:32:26,677 info.py INFO : Successfully listed.
+2024-08-20 08:32:26,677 info.py INFO : Getting protection domain list 
+2024-08-20 08:32:33,195 info.py INFO : Successfully listed.
+2024-08-20 08:32:33,195 info.py INFO : Getting storage pool list 
+2024-08-20 08:32:49,053 info.py INFO : Successfully listed.
+2024-08-20 08:32:49,053 info.py INFO : Getting volumes list 
+2024-08-20 08:33:02,473 info.py INFO : Successfully listed.
+2024-08-20 08:33:02,474 info.py INFO : Getting snapshot policies list 
+2024-08-20 08:33:09,067 info.py INFO : Getting device list 
+2024-08-20 08:33:15,639 info.py INFO : Successfully listed.
+2024-08-20 08:33:15,639 info.py INFO : Getting replication consistency group list 
+2024-08-20 08:33:22,220 info.py INFO : Getting replication pair list 
+2024-08-20 08:33:28,952 info.py INFO : Getting fault set list 
+2024-08-20 08:33:48,332 info.py INFO : Successfully listed.
+2024-08-20 08:54:11,119 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-20 08:54:11,119 info.py INFO : The check_mode flag False
+2024-08-20 08:54:11,119 info.py INFO : Getting API details 
+2024-08-20 08:54:11,119 info.py INFO : Getting array details 
+2024-08-20 08:54:17,717 info.py INFO : Getting SDC list 
+2024-08-20 08:54:24,330 info.py INFO : Successfully listed.
+2024-08-20 08:54:24,330 info.py INFO : Getting SDS list 
+2024-08-20 08:54:30,898 info.py INFO : Successfully listed.
+2024-08-20 08:54:30,898 info.py INFO : Getting protection domain list 
+2024-08-20 08:54:37,730 info.py INFO : Successfully listed.
+2024-08-20 08:54:37,730 info.py INFO : Getting storage pool list 
+2024-08-20 08:54:53,747 info.py INFO : Successfully listed.
+2024-08-20 08:54:53,748 info.py INFO : Getting volumes list 
+2024-08-20 08:55:07,301 info.py INFO : Successfully listed.
+2024-08-20 08:55:07,302 info.py INFO : Getting snapshot policies list 
+2024-08-20 08:55:13,733 info.py INFO : Getting device list 
+2024-08-20 08:55:20,334 info.py INFO : Successfully listed.
+2024-08-20 08:55:20,335 info.py INFO : Getting replication consistency group list 
+2024-08-20 08:55:26,955 info.py INFO : Getting replication pair list 
+2024-08-20 08:55:33,605 info.py INFO : Getting fault set list 
+2024-08-20 08:55:53,258 info.py INFO : Successfully listed.
+2024-08-20 15:12:52,809 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-20 15:12:52,811 info.py INFO : The check_mode flag False
+2024-08-20 15:12:52,811 info.py INFO : Getting API details 
+2024-08-20 15:12:52,811 info.py INFO : Getting array details 
+2024-08-20 15:12:52,878 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-20 15:12:52,879 info.py INFO : The check_mode flag False
+2024-08-20 15:12:52,879 info.py INFO : Getting API details 
+2024-08-20 15:12:52,879 info.py INFO : Getting array details 
+2024-08-20 15:12:59,580 info.py INFO : Getting SDC list 
+2024-08-20 15:12:59,696 info.py INFO : Getting SDC list 
+2024-08-20 15:13:06,033 info.py INFO : Successfully listed.
+2024-08-20 15:13:06,033 info.py INFO : Getting SDS list 
+2024-08-20 15:13:06,406 info.py INFO : Successfully listed.
+2024-08-20 15:13:06,406 info.py INFO : Getting SDS list 
+2024-08-20 15:13:12,713 info.py INFO : Successfully listed.
+2024-08-20 15:13:12,713 info.py INFO : Getting protection domain list 
+2024-08-20 15:13:13,303 info.py INFO : Successfully listed.
+2024-08-20 15:13:13,303 info.py INFO : Getting protection domain list 
+2024-08-20 15:13:19,379 info.py INFO : Successfully listed.
+2024-08-20 15:13:19,379 info.py INFO : Getting storage pool list 
+2024-08-20 15:13:20,232 info.py INFO : Successfully listed.
+2024-08-20 15:13:20,233 info.py INFO : Getting storage pool list 
+2024-08-20 15:13:36,032 info.py INFO : Successfully listed.
+2024-08-20 15:13:36,032 info.py INFO : Getting volumes list 
+2024-08-20 15:13:36,581 info.py INFO : Successfully listed.
+2024-08-20 15:13:36,581 info.py INFO : Getting volumes list 
+2024-08-20 15:13:49,338 info.py INFO : Successfully listed.
+2024-08-20 15:13:49,338 info.py INFO : Getting snapshot policies list 
+2024-08-20 15:13:50,638 info.py INFO : Successfully listed.
+2024-08-20 15:13:50,638 info.py INFO : Getting snapshot policies list 
+2024-08-20 15:13:57,021 info.py INFO : Getting device list 
+2024-08-20 15:13:57,164 info.py INFO : Getting device list 
+2024-08-20 15:14:03,662 info.py INFO : Successfully listed.
+2024-08-20 15:14:03,662 info.py INFO : Getting replication consistency group list 
+2024-08-20 15:14:03,865 info.py INFO : Successfully listed.
+2024-08-20 15:14:03,865 info.py INFO : Getting replication consistency group list 
+2024-08-20 15:14:10,357 info.py INFO : Getting replication pair list 
+2024-08-20 15:14:10,414 info.py INFO : Getting replication pair list 
+2024-08-20 15:14:16,991 info.py INFO : Getting fault set list 
+2024-08-20 15:14:17,031 info.py INFO : Getting fault set list 
+2024-08-20 15:14:36,642 info.py INFO : Successfully listed.
+2024-08-20 15:14:36,802 info.py INFO : Successfully listed.
+2024-08-20 16:00:05,511 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-20 16:00:05,512 info.py INFO : The check_mode flag False
+2024-08-20 16:00:05,513 info.py INFO : Getting API details 
+2024-08-20 16:00:05,513 info.py INFO : Getting array details 
+2024-08-20 16:00:05,786 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-20 16:00:05,786 info.py INFO : The check_mode flag False
+2024-08-20 16:00:05,786 info.py INFO : Getting API details 
+2024-08-20 16:00:05,786 info.py INFO : Getting array details 
+2024-08-20 16:00:12,320 info.py INFO : Getting SDC list 
+2024-08-20 16:00:12,367 info.py INFO : Getting SDC list 
+2024-08-20 16:00:18,887 info.py INFO : Successfully listed.
+2024-08-20 16:00:18,887 info.py INFO : Getting SDS list 
+2024-08-20 16:00:18,925 info.py INFO : Successfully listed.
+2024-08-20 16:00:18,925 info.py INFO : Getting SDS list 
+2024-08-20 16:00:25,351 info.py INFO : Successfully listed.
+2024-08-20 16:00:25,352 info.py INFO : Getting protection domain list 
+2024-08-20 16:00:25,368 info.py INFO : Successfully listed.
+2024-08-20 16:00:25,368 info.py INFO : Getting protection domain list 
+2024-08-20 16:00:31,952 info.py INFO : Successfully listed.
+2024-08-20 16:00:31,952 info.py INFO : Getting storage pool list 
+2024-08-20 16:00:32,145 info.py INFO : Successfully listed.
+2024-08-20 16:00:32,145 info.py INFO : Getting storage pool list 
+2024-08-20 16:00:47,924 info.py INFO : Successfully listed.
+2024-08-20 16:00:47,924 info.py INFO : Getting volumes list 
+2024-08-20 16:00:48,295 info.py INFO : Successfully listed.
+2024-08-20 16:00:48,295 info.py INFO : Getting volumes list 
+2024-08-20 16:01:01,517 info.py INFO : Successfully listed.
+2024-08-20 16:01:01,517 info.py INFO : Getting snapshot policies list 
+2024-08-20 16:01:01,760 info.py INFO : Successfully listed.
+2024-08-20 16:01:01,760 info.py INFO : Getting snapshot policies list 
+2024-08-20 16:01:08,439 info.py INFO : Getting device list 
+2024-08-20 16:01:09,227 info.py INFO : Getting device list 
+2024-08-20 16:01:14,919 info.py INFO : Successfully listed.
+2024-08-20 16:01:14,920 info.py INFO : Getting replication consistency group list 
+2024-08-20 16:01:15,740 info.py INFO : Successfully listed.
+2024-08-20 16:01:15,740 info.py INFO : Getting replication consistency group list 
+2024-08-20 16:01:21,650 info.py INFO : Getting replication pair list 
+2024-08-20 16:01:22,275 info.py INFO : Getting replication pair list 
+2024-08-20 16:01:28,032 info.py INFO : Getting fault set list 
+2024-08-20 16:01:29,048 info.py INFO : Getting fault set list 
+2024-08-20 16:01:47,598 info.py INFO : Successfully listed.
+2024-08-20 16:01:50,510 info.py INFO : Successfully listed.
+2024-08-20 16:02:06,515 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-20 16:02:06,515 info.py INFO : The check_mode flag False
+2024-08-20 16:02:06,515 info.py INFO : Getting API details 
+2024-08-20 16:02:06,515 info.py INFO : Getting array details 
+2024-08-20 16:02:06,617 info.py INFO : Got the PowerFlex system connection object instance
+2024-08-20 16:02:06,617 info.py INFO : The check_mode flag False
+2024-08-20 16:02:06,617 info.py INFO : Getting API details 
+2024-08-20 16:02:06,617 info.py INFO : Getting array details 
+2024-08-20 16:02:13,093 info.py INFO : Getting SDC list 
+2024-08-20 16:02:13,260 info.py INFO : Getting SDC list 
+2024-08-20 16:02:19,795 info.py INFO : Successfully listed.
+2024-08-20 16:02:19,795 info.py INFO : Getting SDS list 
+2024-08-20 16:02:19,873 info.py INFO : Successfully listed.
+2024-08-20 16:02:19,874 info.py INFO : Getting SDS list 
+2024-08-20 16:02:26,288 info.py INFO : Successfully listed.
+2024-08-20 16:02:26,288 info.py INFO : Getting protection domain list 
+2024-08-20 16:02:26,291 info.py INFO : Successfully listed.
+2024-08-20 16:02:26,291 info.py INFO : Getting protection domain list 
+2024-08-20 16:02:32,841 info.py INFO : Successfully listed.
+2024-08-20 16:02:32,841 info.py INFO : Getting storage pool list 
+2024-08-20 16:02:32,968 info.py INFO : Successfully listed.
+2024-08-20 16:02:32,968 info.py INFO : Getting storage pool list 
+2024-08-20 16:02:48,870 info.py INFO : Successfully listed.
+2024-08-20 16:02:48,872 info.py INFO : Getting volumes list 
+2024-08-20 16:02:49,015 info.py INFO : Successfully listed.
+2024-08-20 16:02:49,015 info.py INFO : Getting volumes list 
+2024-08-20 16:03:02,350 info.py INFO : Successfully listed.
+2024-08-20 16:03:02,350 info.py INFO : Getting snapshot policies list 
+2024-08-20 16:03:02,544 info.py INFO : Successfully listed.
+2024-08-20 16:03:02,544 info.py INFO : Getting snapshot policies list 
+2024-08-20 16:03:08,978 info.py INFO : Getting device list 
+2024-08-20 16:03:09,133 info.py INFO : Getting device list 
+2024-08-20 16:03:15,781 info.py INFO : Successfully listed.
+2024-08-20 16:03:15,781 info.py INFO : Getting replication consistency group list 
+2024-08-20 16:03:15,908 info.py INFO : Successfully listed.
+2024-08-20 16:03:15,908 info.py INFO : Getting replication consistency group list 
+2024-08-20 16:03:22,344 info.py INFO : Getting replication pair list 
+2024-08-20 16:03:22,597 info.py INFO : Getting replication pair list 
+2024-08-20 16:03:28,994 info.py INFO : Getting fault set list 
+2024-08-20 16:03:29,223 info.py INFO : Getting fault set list 
+2024-08-20 16:03:48,891 info.py INFO : Successfully listed.
+2024-08-20 16:03:49,107 info.py INFO : Successfully listed.

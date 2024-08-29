@@ -1,0 +1,36 @@
+---
+# ansible-playbook -i inventory/inventory.yml pf_info.yml
+- name: Gather Info Module Operations on PowerFlex
+  hosts: powerflex
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Get detailed list of PowerFlex Entities - all
+      dellemc.powerflex.info:
+        hostname: "{{ ansible_host }}"
+        username: "{{ ansible_user }}"
+        password: "{{ ansible_password }}"
+        validate_certs: "{{ ansible_validate_certs }}"
+        gather_subset:
+          - vol
+          - storage_pool
+          - protection_domain
+          - sdc
+          - sds
+          - snapshot_policy
+          - device
+          - rcg
+          - replication_pair
+          - fault_set
+      register: output_powerflex_info
+
+
+    - name: Write PowerFlex info to file
+      copy:
+        content: "{{ output_powerflex_info }}"
+        dest: "output_powerflex_info.json"
+
+    # - name: Validate vol info
+    #   sys_validate:
+    #     json_input: "{{ info_vol }}"
+
