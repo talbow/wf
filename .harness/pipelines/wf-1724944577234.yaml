@@ -11,38 +11,25 @@ pipeline:
         repoName: talbow/wf
   stages:
     - stage:
-        identifier: build
-        name: build
+        name: wf
+        identifier: wf
+        description: ""
+        type: Custom
         spec:
-          caching:
-            enabled: true
-          cloneCodebase: true
           execution:
             steps:
               - step:
-                  identifier: runlinter
-                  name: run linter
+                  type: ShellScript
+                  name: wf_info_1
+                  identifier: wf_info_1
                   spec:
-                    command: |-
-                      pip install flake8
-                      flake8 .
-                  timeout: ""
-                  type: Run
-              - step:
-                  identifier: setupvirtualenvironment
-                  name: setup virtual environment
-                  spec:
-                    command: |-
-                      python3 -m venv .venv
-                      . .venv/bin/activate
-                      python3 -m pip install -r requirements.txt
-                      python3 -m pip install -e .
-                  timeout: ""
-                  type: Run
-          platform:
-            arch: Amd64
-            os: Linux
-          runtime:
-            spec: {}
-            type: Docker
-        type: CI
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: ansible-playbook -i inventory/inventory.yml pf_info.yml
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
