@@ -39,4 +39,3 @@
     # - name: Validate vol info
     #   sys_validate:
     #     json_input: "{{ info_vol }}"
-

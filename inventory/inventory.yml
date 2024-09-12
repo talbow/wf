@@ -9,11 +9,11 @@ all:
           ansible_password: 'Scaleio123!'
           ansible_validate_certs: false
           powerflex_api_host: '10.118.169.30:443'
-        pfm_server_02:
-          ansible_host: 10.118.169.30
-          ansible_port: 443
-          ansible_user: 'Admin'
-          ansible_password: 'Scaleio123!'
-          ansible_validate_certs: false
-          powerflex_api_host: '10.118.169.30:443'
+        # pfm_server_02:
+        #   ansible_host: 10.118.169.30
+        #   ansible_port: 443
+        #   ansible_user: 'Admin'
+        #   ansible_password: 'Scaleio123!'
+        #   ansible_validate_certs: false
+        #   powerflex_api_host: '10.118.169.30:443'
 
