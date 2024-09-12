@@ -3,6 +3,7 @@ all:
     powerflex:
       hosts:
         pfm_server:
+          ansible_python_interpreter: /usr/bin/python3
           ansible_host: 10.118.169.30
           ansible_port: 443
           ansible_user: 'Admin'
