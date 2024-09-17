@@ -2,9 +2,17 @@
 - name: Check installed Python packages
   hosts: localhost
   tasks:
-    - name: List installed packages
-      command: /usr/bin/python3 -m pip list
-      register: pip_list
 
-    - debug:
-        var: pip_list.stdout_lines
+    - name: ping test
+      command: ping 10.118.169.30
+      register: ping_output
+
+    - debug: 
+        var: ping_output.stdout_lines
+
+    # - name: List installed packages
+    #   command: /usr/bin/python3 -m pip list
+    #   register: pip_list
+
+    # - debug:
+    #     var: pip_list.stdout_lines
