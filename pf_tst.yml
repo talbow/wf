@@ -4,7 +4,7 @@
   tasks:
 
     - name: ping test
-      command: ping 10.118.169.30
+      command: /usr/bin/ping 10.118.169.30
       register: ping_output
 
     - debug: 
